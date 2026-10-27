@@ -1,0 +1,10 @@
+{
+  "slug": "printer-error-guide",
+  "pass": true,
+  "testsPassed": 8,
+  "testsFailed": 0,
+  "source_sha256": "bc3dd93cad1c53d0d0b676624a83da82a80b16c43f7bfd5fc31b91e58dfc5b60",
+  "dist_sha256": "67115ad8131dff1e162ee7f6ebd7f2075ebb8331d55c2fbcfa6c37fba1a34b90",
+  "reproducibleBuild": true,
+  "browserOrPhysicalExecutionChecked": false
+}

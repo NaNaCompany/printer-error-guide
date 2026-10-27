@@ -1,0 +1,28 @@
+{
+  "pass": true,
+  "slug": "printer-error-guide",
+  "type": "directory",
+  "languages": [
+    "ko",
+    "en",
+    "es",
+    "zh",
+    "ja",
+    "de"
+  ],
+  "entries": 20,
+  "pages": 126,
+  "internalLinksChecked": 2881,
+  "externalLinksObserved": 22,
+  "publisherPages": 126,
+  "origin": "https://nanalab.kr/printer-error-guide",
+  "binariesHosted": 0,
+  "sourceHosts": [
+    "download4.epson.biz",
+    "epson.com",
+    "ij.manual.canon"
+  ],
+  "sourceUrlsCheckedStatically": 18,
+  "httpReachabilityChecked": false,
+  "browserOrPhysicalExecutionChecked": false
+}

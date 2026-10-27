@@ -1,0 +1,1792 @@
+{
+  "slug": "printer-error-guide",
+  "checkedAt": "2026-10-27",
+  "title": {
+    "ko": "프린터 오류 찾기",
+    "en": "Printer Error Guide",
+    "es": "Guía de errores de impresora",
+    "zh": "打印机错误查询",
+    "ja": "プリンターエラー検索",
+    "de": "Druckerfehler finden"
+  },
+  "description": {
+    "ko": "제조사·모델·코드로 찾는 확인 항목과 공식 지원 링크.",
+    "en": "Find model-specific checks and official support links by brand and code.",
+    "es": "Busque comprobaciones y soporte oficial según marca, modelo y código.",
+    "zh": "按品牌、型号和代码查找检查项目与官方支持。",
+    "ja": "メーカー・型番・番号から確認項目と公式窓口を探せます。",
+    "de": "Prüfschritte und offizielle Hilfe nach Hersteller, Modell und Code finden."
+  },
+  "categoryLabels": {
+    "paper-feed": {
+      "ko": "급지",
+      "en": "Paper feed",
+      "es": "Alimentación de papel",
+      "zh": "进纸",
+      "ja": "給紙",
+      "de": "Papiereinzug"
+    },
+    "cover": {
+      "ko": "덮개",
+      "en": "Cover",
+      "es": "Cubierta",
+      "zh": "盖板",
+      "ja": "カバー",
+      "de": "Abdeckung"
+    },
+    "paper-jam": {
+      "ko": "용지 걸림",
+      "en": "Paper jam",
+      "es": "Atasco de papel",
+      "zh": "卡纸",
+      "ja": "紙詰まり",
+      "de": "Papierstau"
+    },
+    "cartridge": {
+      "ko": "카트리지",
+      "en": "Cartridge",
+      "es": "Cartucho",
+      "zh": "墨盒",
+      "ja": "カートリッジ",
+      "de": "Patrone"
+    },
+    "service": {
+      "ko": "공식 서비스",
+      "en": "Official service",
+      "es": "Servicio oficial",
+      "zh": "官方服务",
+      "ja": "公式サービス",
+      "de": "Offizieller Service"
+    },
+    "setup": {
+      "ko": "초기 설치",
+      "en": "Initial setup",
+      "es": "Instalación inicial",
+      "zh": "初次安装",
+      "ja": "初期設定",
+      "de": "Ersteinrichtung"
+    },
+    "paper-settings": {
+      "ko": "용지 설정",
+      "en": "Paper settings",
+      "es": "Ajustes de papel",
+      "zh": "纸张设置",
+      "ja": "用紙設定",
+      "de": "Papiereinstellungen"
+    },
+    "alignment": {
+      "ko": "헤드 정렬",
+      "en": "Head alignment",
+      "es": "Alineación del cabezal",
+      "zh": "打印头对齐",
+      "ja": "ヘッド位置調整",
+      "de": "Druckkopfausrichtung"
+    },
+    "carriage": {
+      "ko": "카트리지 홀더",
+      "en": "Cartridge holder",
+      "es": "Soporte de cartuchos",
+      "zh": "墨盒支架",
+      "ja": "カートリッジホルダー",
+      "de": "Patronenhalter"
+    },
+    "printer": {
+      "ko": "프린터 동작",
+      "en": "Printer operation",
+      "es": "Funcionamiento de impresora",
+      "zh": "打印机运行",
+      "ja": "プリンター動作",
+      "de": "Druckerbetrieb"
+    },
+    "scanner": {
+      "ko": "스캐너 동작",
+      "en": "Scanner operation",
+      "es": "Funcionamiento del escáner",
+      "zh": "扫描仪运行",
+      "ja": "スキャナー動作",
+      "de": "Scannerbetrieb"
+    }
+  },
+  "entries": [
+    {
+      "id": "canon-ts3500-1000",
+      "slug": "canon-ts3500-1000",
+      "code": "1000",
+      "aliases": [],
+      "category": "paper-feed",
+      "brand": "Canon",
+      "models": [
+        "TS3500 series",
+        "TS3520",
+        "TS3550i"
+      ],
+      "sources": [
+        {
+          "label": "Canon TS3500 series — 1000",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/1000.html"
+        },
+        {
+          "label": "Canon TS3500 series — model and code index",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/err_contents0100.html"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "급지함 용지 확인",
+          "summary": "후면 급지함이 비었거나 용지가 제대로 놓이지 않았을 수 있습니다.",
+          "checks": [
+            "후면 급지함에 해당 작업에 맞는 용지가 있는지 확인합니다.",
+            "용지 양쪽 가이드를 맞춘 뒤 OK를 누릅니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Canon 공식 지원 또는 서비스센터에 문의합니다.",
+          "scope": "Canon TS3500 series 공식 오류 안내 범위입니다. 코드 목록에 TS3520·TS3550i가 명시되며, 다른 Canon 모델에는 일반화하지 않습니다."
+        },
+        "en": {
+          "title": "Check rear-tray paper",
+          "summary": "The rear tray may be empty or loaded incorrectly.",
+          "checks": [
+            "Check that the rear tray contains paper suitable for the job.",
+            "Align both paper guides, then press OK."
+          ],
+          "escalation": "If it persists, contact official Canon support or a Canon service center with the code and model.",
+          "scope": "Limited to the Canon TS3500 series error guide, whose index names TS3520 and TS3550i. Do not apply this mapping to other Canon models."
+        },
+        "es": {
+          "title": "Revisar el papel de la bandeja trasera",
+          "summary": "La bandeja trasera puede estar vacía o mal cargada.",
+          "checks": [
+            "Compruebe que haya papel adecuado para el trabajo.",
+            "Ajuste ambas guías del papel y pulse OK."
+          ],
+          "escalation": "Si persiste, consulte al soporte oficial o servicio Canon con el código y modelo.",
+          "scope": "Limitado a la guía Canon TS3500 series, cuyo índice nombra TS3520 y TS3550i. No generalizar a otros modelos Canon."
+        },
+        "zh": {
+          "title": "检查后托盘纸张",
+          "summary": "后托盘可能缺纸或装纸位置不正确。",
+          "checks": [
+            "确认后托盘中有适合当前任务的纸张。",
+            "将两侧导纸器贴齐纸边，再按 OK。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号，联系 Canon 官方支持或服务中心。",
+          "scope": "仅限 Canon TS3500 series 错误指南；其索引列有 TS3520 与 TS3550i。不可推广到其他 Canon 机型。"
+        },
+        "ja": {
+          "title": "後トレイの用紙を確認",
+          "summary": "後トレイに用紙がないか、正しくセットされていない可能性があります。",
+          "checks": [
+            "印刷に合う用紙が後トレイにあるか確認します。",
+            "左右の用紙ガイドを合わせてから OK を押します。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Canon 公式サポートまたはサービス窓口へ相談します。",
+          "scope": "Canon TS3500 series の公式エラー案内の範囲です。一覧には TS3520・TS3550i が記載されています。他の Canon 機には一般化できません。"
+        },
+        "de": {
+          "title": "Papier im hinteren Fach prüfen",
+          "summary": "Im hinteren Fach fehlt möglicherweise Papier oder es liegt falsch.",
+          "checks": [
+            "Prüfen Sie, ob passendes Papier für den Auftrag eingelegt ist.",
+            "Richten Sie beide Papierführungen aus und drücken Sie OK."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Canon-Support oder Canon-Service mit Code und Modell kontaktieren.",
+          "scope": "Gilt für die Fehleranleitung der Canon TS3500 series; der Index nennt TS3520 und TS3550i. Nicht auf andere Canon-Modelle übertragen."
+        }
+      }
+    },
+    {
+      "id": "canon-ts3500-1200",
+      "slug": "canon-ts3500-1200",
+      "code": "1200",
+      "aliases": [],
+      "category": "cover",
+      "brand": "Canon",
+      "models": [
+        "TS3500 series",
+        "TS3520",
+        "TS3550i"
+      ],
+      "sources": [
+        {
+          "label": "Canon TS3500 series — 1200",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/1200.html"
+        },
+        {
+          "label": "Canon TS3500 series — model and code index",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/err_contents0100.html"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "덮개 닫힘 확인",
+          "summary": "덮개가 열린 상태로 감지됩니다.",
+          "checks": [
+            "카트리지 교체 후 덮개가 닫혔는지 확인합니다.",
+            "덮개를 무리 없이 닫은 뒤 표시가 바뀌는지 잠시 기다립니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Canon 공식 지원 또는 서비스센터에 문의합니다.",
+          "scope": "Canon TS3500 series 공식 오류 안내 범위입니다. 코드 목록에 TS3520·TS3550i가 명시되며, 다른 Canon 모델에는 일반화하지 않습니다."
+        },
+        "en": {
+          "title": "Check the cover",
+          "summary": "The printer detects an open cover.",
+          "checks": [
+            "Check whether the cover remained open after a cartridge change.",
+            "Close it gently and wait briefly for the display to update."
+          ],
+          "escalation": "If it persists, contact official Canon support or a Canon service center with the code and model.",
+          "scope": "Limited to the Canon TS3500 series error guide, whose index names TS3520 and TS3550i. Do not apply this mapping to other Canon models."
+        },
+        "es": {
+          "title": "Comprobar la cubierta",
+          "summary": "La impresora detecta una cubierta abierta.",
+          "checks": [
+            "Compruebe si quedó abierta tras cambiar un cartucho.",
+            "Ciérrela suavemente y espere a que cambie la pantalla."
+          ],
+          "escalation": "Si persiste, consulte al soporte oficial o servicio Canon con el código y modelo.",
+          "scope": "Limitado a la guía Canon TS3500 series, cuyo índice nombra TS3520 y TS3550i. No generalizar a otros modelos Canon."
+        },
+        "zh": {
+          "title": "检查盖板",
+          "summary": "打印机检测到盖板未关闭。",
+          "checks": [
+            "检查更换墨盒后是否忘记关闭盖板。",
+            "轻轻合上盖板，稍候观察提示是否消失。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号，联系 Canon 官方支持或服务中心。",
+          "scope": "仅限 Canon TS3500 series 错误指南；其索引列有 TS3520 与 TS3550i。不可推广到其他 Canon 机型。"
+        },
+        "ja": {
+          "title": "カバーの閉鎖を確認",
+          "summary": "カバーが開いていると検知されています。",
+          "checks": [
+            "カートリッジ交換後にカバーが開いたままでないか確認します。",
+            "無理に押さずに閉じ、表示の変化を少し待ちます。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Canon 公式サポートまたはサービス窓口へ相談します。",
+          "scope": "Canon TS3500 series の公式エラー案内の範囲です。一覧には TS3520・TS3550i が記載されています。他の Canon 機には一般化できません。"
+        },
+        "de": {
+          "title": "Abdeckung prüfen",
+          "summary": "Das Gerät erkennt eine offene Abdeckung.",
+          "checks": [
+            "Prüfen Sie, ob die Abdeckung nach einem Patronenwechsel offen blieb.",
+            "Schließen Sie sie vorsichtig und warten Sie kurz auf die Anzeige."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Canon-Support oder Canon-Service mit Code und Modell kontaktieren.",
+          "scope": "Gilt für die Fehleranleitung der Canon TS3500 series; der Index nennt TS3520 und TS3550i. Nicht auf andere Canon-Modelle übertragen."
+        }
+      }
+    },
+    {
+      "id": "canon-ts3500-1203",
+      "slug": "canon-ts3500-1203",
+      "code": "1203",
+      "aliases": [],
+      "category": "cover",
+      "brand": "Canon",
+      "models": [
+        "TS3500 series",
+        "TS3520",
+        "TS3550i"
+      ],
+      "sources": [
+        {
+          "label": "Canon TS3500 series — 1203",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/1203.html"
+        },
+        {
+          "label": "Canon TS3500 series — model and code index",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/err_contents0100.html"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "인쇄 중 덮개 열림",
+          "summary": "인쇄 도중 덮개가 열려 작업이 중단되었습니다.",
+          "checks": [
+            "덮개를 닫고 OK를 눌러 안내에 따라 진행합니다.",
+            "빠진 페이지가 있는지 출력물을 확인하고 해당 페이지만 다시 인쇄합니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Canon 공식 지원 또는 서비스센터에 문의합니다.",
+          "scope": "Canon TS3500 series 공식 오류 안내 범위입니다. 코드 목록에 TS3520·TS3550i가 명시되며, 다른 Canon 모델에는 일반화하지 않습니다."
+        },
+        "en": {
+          "title": "Cover opened during printing",
+          "summary": "Opening the cover interrupted an active print job.",
+          "checks": [
+            "Close the cover and use OK as directed by the printer.",
+            "Check for a missing page and print that page again if needed."
+          ],
+          "escalation": "If it persists, contact official Canon support or a Canon service center with the code and model.",
+          "scope": "Limited to the Canon TS3500 series error guide, whose index names TS3520 and TS3550i. Do not apply this mapping to other Canon models."
+        },
+        "es": {
+          "title": "Cubierta abierta durante la impresión",
+          "summary": "Se interrumpió el trabajo al abrir la cubierta.",
+          "checks": [
+            "Cierre la cubierta y use OK según indique la impresora.",
+            "Revise si falta una página y vuelva a imprimirla si hace falta."
+          ],
+          "escalation": "Si persiste, consulte al soporte oficial o servicio Canon con el código y modelo.",
+          "scope": "Limitado a la guía Canon TS3500 series, cuyo índice nombra TS3520 y TS3550i. No generalizar a otros modelos Canon."
+        },
+        "zh": {
+          "title": "打印时盖板被打开",
+          "summary": "打印过程中打开盖板导致任务中断。",
+          "checks": [
+            "关闭盖板，按打印机提示使用 OK。",
+            "检查是否漏印页面，必要时重新打印该页。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号，联系 Canon 官方支持或服务中心。",
+          "scope": "仅限 Canon TS3500 series 错误指南；其索引列有 TS3520 与 TS3550i。不可推广到其他 Canon 机型。"
+        },
+        "ja": {
+          "title": "印刷中にカバーが開いた",
+          "summary": "印刷中にカバーが開き、処理が中断されました。",
+          "checks": [
+            "カバーを閉じ、画面の案内に従って OK を押します。",
+            "抜けたページがないか確認し、必要なページを再印刷します。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Canon 公式サポートまたはサービス窓口へ相談します。",
+          "scope": "Canon TS3500 series の公式エラー案内の範囲です。一覧には TS3520・TS3550i が記載されています。他の Canon 機には一般化できません。"
+        },
+        "de": {
+          "title": "Abdeckung während des Druckens geöffnet",
+          "summary": "Das Öffnen der Abdeckung hat den Druckauftrag unterbrochen.",
+          "checks": [
+            "Schließen Sie die Abdeckung und bestätigen Sie nach Gerätehinweis mit OK.",
+            "Prüfen Sie, ob eine Seite fehlt, und drucken Sie diese bei Bedarf erneut."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Canon-Support oder Canon-Service mit Code und Modell kontaktieren.",
+          "scope": "Gilt für die Fehleranleitung der Canon TS3500 series; der Index nennt TS3520 und TS3550i. Nicht auf andere Canon-Modelle übertragen."
+        }
+      }
+    },
+    {
+      "id": "canon-ts3500-1300",
+      "slug": "canon-ts3500-1300",
+      "code": "1300",
+      "aliases": [],
+      "category": "paper-jam",
+      "brand": "Canon",
+      "models": [
+        "TS3500 series",
+        "TS3520",
+        "TS3550i"
+      ],
+      "sources": [
+        {
+          "label": "Canon TS3500 series — 1300",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/1300.html"
+        },
+        {
+          "label": "Canon TS3500 series — model and code index",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/err_contents0100.html"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "후면 급지 경로 걸림",
+          "summary": "후면 급지 중 용지 걸림이 감지되었습니다.",
+          "checks": [
+            "후면 급지함과 배출구에서 걸린 종이가 보이는지 확인합니다.",
+            "공식 제거 절차를 따르되 종이가 저항하면 당기지 말고 중단합니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Canon 공식 지원 또는 서비스센터에 문의합니다.",
+          "scope": "Canon TS3500 series 공식 오류 안내 범위입니다. 코드 목록에 TS3520·TS3550i가 명시되며, 다른 Canon 모델에는 일반화하지 않습니다."
+        },
+        "en": {
+          "title": "Rear-feed paper jam",
+          "summary": "The printer reports a jam while feeding from the rear tray.",
+          "checks": [
+            "Look for visible paper at the rear tray and output slot.",
+            "Use the official removal procedure; stop if the sheet resists."
+          ],
+          "escalation": "If it persists, contact official Canon support or a Canon service center with the code and model.",
+          "scope": "Limited to the Canon TS3500 series error guide, whose index names TS3520 and TS3550i. Do not apply this mapping to other Canon models."
+        },
+        "es": {
+          "title": "Atasco en la alimentación trasera",
+          "summary": "Se detectó un atasco al tomar papel de la bandeja trasera.",
+          "checks": [
+            "Busque papel visible en la bandeja trasera y la salida.",
+            "Siga el procedimiento oficial; deténgase si el papel ofrece resistencia."
+          ],
+          "escalation": "Si persiste, consulte al soporte oficial o servicio Canon con el código y modelo.",
+          "scope": "Limitado a la guía Canon TS3500 series, cuyo índice nombra TS3520 y TS3550i. No generalizar a otros modelos Canon."
+        },
+        "zh": {
+          "title": "后部进纸卡纸",
+          "summary": "从后托盘进纸时检测到卡纸。",
+          "checks": [
+            "查看后托盘和出纸口是否能看到卡住的纸张。",
+            "按官方清除步骤操作；纸张有阻力时停止拉扯。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号，联系 Canon 官方支持或服务中心。",
+          "scope": "仅限 Canon TS3500 series 错误指南；其索引列有 TS3520 与 TS3550i。不可推广到其他 Canon 机型。"
+        },
+        "ja": {
+          "title": "後トレイからの給紙で紙詰まり",
+          "summary": "後トレイからの給紙中に紙詰まりが検知されました。",
+          "checks": [
+            "後トレイと排紙口に紙が見えるか確認します。",
+            "公式の除去手順を確認し、抵抗があれば引っ張らずに止めます。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Canon 公式サポートまたはサービス窓口へ相談します。",
+          "scope": "Canon TS3500 series の公式エラー案内の範囲です。一覧には TS3520・TS3550i が記載されています。他の Canon 機には一般化できません。"
+        },
+        "de": {
+          "title": "Papierstau beim hinteren Einzug",
+          "summary": "Beim Einzug aus dem hinteren Fach wurde ein Stau erkannt.",
+          "checks": [
+            "Prüfen Sie, ob am hinteren Fach oder Papierausgang Papier sichtbar ist.",
+            "Befolgen Sie die offizielle Anleitung; bei Widerstand nicht weiterziehen."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Canon-Support oder Canon-Service mit Code und Modell kontaktieren.",
+          "scope": "Gilt für die Fehleranleitung der Canon TS3500 series; der Index nennt TS3520 und TS3550i. Nicht auf andere Canon-Modelle übertragen."
+        }
+      }
+    },
+    {
+      "id": "canon-ts3500-1403",
+      "slug": "canon-ts3500-1403",
+      "code": "1403",
+      "aliases": [],
+      "category": "cartridge",
+      "brand": "Canon",
+      "models": [
+        "TS3500 series",
+        "TS3520",
+        "TS3550i"
+      ],
+      "sources": [
+        {
+          "label": "Canon TS3500 series — 1403",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/1403.html"
+        },
+        {
+          "label": "Canon TS3500 series — model and code index",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/err_contents0100.html"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "FINE 카트리지 오류",
+          "summary": "FINE 카트리지 관련 오류가 보고되었습니다.",
+          "checks": [
+            "사용 중인 카트리지 품번이 해당 모델용인지 확인합니다.",
+            "공식 교체 안내에 따라 장착 상태를 확인합니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Canon 공식 지원 또는 서비스센터에 문의합니다.",
+          "scope": "Canon TS3500 series 공식 오류 안내 범위입니다. 코드 목록에 TS3520·TS3550i가 명시되며, 다른 Canon 모델에는 일반화하지 않습니다."
+        },
+        "en": {
+          "title": "FINE cartridge error",
+          "summary": "The printer reports a FINE cartridge problem.",
+          "checks": [
+            "Check the cartridge part number against this model's supply list.",
+            "Check its seating using the official cartridge replacement guide."
+          ],
+          "escalation": "If it persists, contact official Canon support or a Canon service center with the code and model.",
+          "scope": "Limited to the Canon TS3500 series error guide, whose index names TS3520 and TS3550i. Do not apply this mapping to other Canon models."
+        },
+        "es": {
+          "title": "Error del cartucho FINE",
+          "summary": "La impresora informa de un problema con el cartucho FINE.",
+          "checks": [
+            "Compare la referencia del cartucho con los consumibles del modelo.",
+            "Revise su colocación siguiendo la guía oficial de sustitución."
+          ],
+          "escalation": "Si persiste, consulte al soporte oficial o servicio Canon con el código y modelo.",
+          "scope": "Limitado a la guía Canon TS3500 series, cuyo índice nombra TS3520 y TS3550i. No generalizar a otros modelos Canon."
+        },
+        "zh": {
+          "title": "FINE 墨盒错误",
+          "summary": "打印机报告 FINE 墨盒异常。",
+          "checks": [
+            "将墨盒型号与本机耗材清单核对。",
+            "依照官方墨盒更换指南检查安装状态。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号，联系 Canon 官方支持或服务中心。",
+          "scope": "仅限 Canon TS3500 series 错误指南；其索引列有 TS3520 与 TS3550i。不可推广到其他 Canon 机型。"
+        },
+        "ja": {
+          "title": "FINE カートリッジのエラー",
+          "summary": "FINE カートリッジに関するエラーです。",
+          "checks": [
+            "カートリッジの型番が本機に対応するか確認します。",
+            "公式の交換手順で装着状態を確認します。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Canon 公式サポートまたはサービス窓口へ相談します。",
+          "scope": "Canon TS3500 series の公式エラー案内の範囲です。一覧には TS3520・TS3550i が記載されています。他の Canon 機には一般化できません。"
+        },
+        "de": {
+          "title": "Fehler der FINE-Patrone",
+          "summary": "Das Gerät meldet ein Problem mit der FINE-Patrone.",
+          "checks": [
+            "Vergleichen Sie die Patronennummer mit der Verbrauchsmittelliste des Modells.",
+            "Prüfen Sie den Sitz anhand der offiziellen Wechselanleitung."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Canon-Support oder Canon-Service mit Code und Modell kontaktieren.",
+          "scope": "Gilt für die Fehleranleitung der Canon TS3500 series; der Index nennt TS3520 und TS3550i. Nicht auf andere Canon-Modelle übertragen."
+        }
+      }
+    },
+    {
+      "id": "canon-ts3500-1485",
+      "slug": "canon-ts3500-1485",
+      "code": "1485",
+      "aliases": [],
+      "category": "cartridge",
+      "brand": "Canon",
+      "models": [
+        "TS3500 series",
+        "TS3520",
+        "TS3550i"
+      ],
+      "sources": [
+        {
+          "label": "Canon TS3500 series — 1485",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/1485.html"
+        },
+        {
+          "label": "Canon TS3500 series — model and code index",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/err_contents0100.html"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "호환 카트리지 확인",
+          "summary": "현재 카트리지가 이 프린터와 호환되지 않는 것으로 감지됩니다.",
+          "checks": [
+            "카트리지 품번과 프린터의 정확한 모델명을 대조합니다.",
+            "호환품을 준비하기 전 불필요한 작업은 Stop으로 취소합니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Canon 공식 지원 또는 서비스센터에 문의합니다.",
+          "scope": "Canon TS3500 series 공식 오류 안내 범위입니다. 코드 목록에 TS3520·TS3550i가 명시되며, 다른 Canon 모델에는 일반화하지 않습니다."
+        },
+        "en": {
+          "title": "Check cartridge compatibility",
+          "summary": "The installed cartridge is reported as incompatible.",
+          "checks": [
+            "Compare its part number with the exact printer model.",
+            "Cancel unnecessary jobs with Stop while checking the correct supply."
+          ],
+          "escalation": "If it persists, contact official Canon support or a Canon service center with the code and model.",
+          "scope": "Limited to the Canon TS3500 series error guide, whose index names TS3520 and TS3550i. Do not apply this mapping to other Canon models."
+        },
+        "es": {
+          "title": "Comprobar compatibilidad del cartucho",
+          "summary": "El cartucho instalado figura como incompatible.",
+          "checks": [
+            "Compare su referencia con el modelo exacto de impresora.",
+            "Cancele trabajos innecesarios con Stop mientras comprueba el consumible correcto."
+          ],
+          "escalation": "Si persiste, consulte al soporte oficial o servicio Canon con el código y modelo.",
+          "scope": "Limitado a la guía Canon TS3500 series, cuyo índice nombra TS3520 y TS3550i. No generalizar a otros modelos Canon."
+        },
+        "zh": {
+          "title": "核对墨盒兼容性",
+          "summary": "当前安装的墨盒被识别为不兼容。",
+          "checks": [
+            "核对墨盒编号与打印机的准确型号。",
+            "确认适用耗材期间，可用 Stop 取消不需要的任务。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号，联系 Canon 官方支持或服务中心。",
+          "scope": "仅限 Canon TS3500 series 错误指南；其索引列有 TS3520 与 TS3550i。不可推广到其他 Canon 机型。"
+        },
+        "ja": {
+          "title": "カートリッジの適合を確認",
+          "summary": "装着中のカートリッジが非対応と判定されています。",
+          "checks": [
+            "カートリッジ番号とプリンターの正確な型番を照合します。",
+            "適合品を調べる間、不要な印刷は Stop で取り消します。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Canon 公式サポートまたはサービス窓口へ相談します。",
+          "scope": "Canon TS3500 series の公式エラー案内の範囲です。一覧には TS3520・TS3550i が記載されています。他の Canon 機には一般化できません。"
+        },
+        "de": {
+          "title": "Kompatibilität der Patrone prüfen",
+          "summary": "Die eingesetzte Patrone wird als nicht kompatibel gemeldet.",
+          "checks": [
+            "Vergleichen Sie die Patronennummer mit dem genauen Druckermodell.",
+            "Brechen Sie unnötige Aufträge mit Stop ab, während Sie die passende Patrone prüfen."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Canon-Support oder Canon-Service mit Code und Modell kontaktieren.",
+          "scope": "Gilt für die Fehleranleitung der Canon TS3500 series; der Index nennt TS3520 und TS3550i. Nicht auf andere Canon-Modelle übertragen."
+        }
+      }
+    },
+    {
+      "id": "canon-ts3500-1682",
+      "slug": "canon-ts3500-1682",
+      "code": "1682",
+      "aliases": [],
+      "category": "cartridge",
+      "brand": "Canon",
+      "models": [
+        "TS3500 series",
+        "TS3520",
+        "TS3550i"
+      ],
+      "sources": [
+        {
+          "label": "Canon TS3500 series — 1682",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/1682.html"
+        },
+        {
+          "label": "Canon TS3500 series — model and code index",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/err_contents0100.html"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "FINE 카트리지 인식 실패",
+          "summary": "FINE 카트리지를 인식하지 못하는 상태입니다.",
+          "checks": [
+            "화면의 코드가 1682인지 확인합니다.",
+            "공식 교체 안내에서 해당 모델의 카트리지 품번을 확인합니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Canon 공식 지원 또는 서비스센터에 문의합니다.",
+          "scope": "Canon TS3500 series 공식 오류 안내 범위입니다. 코드 목록에 TS3520·TS3550i가 명시되며, 다른 Canon 모델에는 일반화하지 않습니다."
+        },
+        "en": {
+          "title": "FINE cartridge not recognized",
+          "summary": "Recognition of the FINE cartridge has failed.",
+          "checks": [
+            "Confirm that the displayed support code is 1682.",
+            "Check the correct cartridge part number in the official replacement guide."
+          ],
+          "escalation": "If it persists, contact official Canon support or a Canon service center with the code and model.",
+          "scope": "Limited to the Canon TS3500 series error guide, whose index names TS3520 and TS3550i. Do not apply this mapping to other Canon models."
+        },
+        "es": {
+          "title": "Cartucho FINE no reconocido",
+          "summary": "No se ha podido reconocer el cartucho FINE.",
+          "checks": [
+            "Confirme que el código mostrado sea 1682.",
+            "Consulte la referencia correcta en la guía oficial de sustitución."
+          ],
+          "escalation": "Si persiste, consulte al soporte oficial o servicio Canon con el código y modelo.",
+          "scope": "Limitado a la guía Canon TS3500 series, cuyo índice nombra TS3520 y TS3550i. No generalizar a otros modelos Canon."
+        },
+        "zh": {
+          "title": "无法识别 FINE 墨盒",
+          "summary": "打印机未能识别 FINE 墨盒。",
+          "checks": [
+            "确认屏幕支持代码确实为 1682。",
+            "在官方更换指南中核对适用墨盒编号。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号，联系 Canon 官方支持或服务中心。",
+          "scope": "仅限 Canon TS3500 series 错误指南；其索引列有 TS3520 与 TS3550i。不可推广到其他 Canon 机型。"
+        },
+        "ja": {
+          "title": "FINE カートリッジを認識できない",
+          "summary": "FINE カートリッジの認識に失敗しています。",
+          "checks": [
+            "表示されたサポート番号が 1682 か確認します。",
+            "公式の交換案内で対応するカートリッジ番号を確認します。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Canon 公式サポートまたはサービス窓口へ相談します。",
+          "scope": "Canon TS3500 series の公式エラー案内の範囲です。一覧には TS3520・TS3550i が記載されています。他の Canon 機には一般化できません。"
+        },
+        "de": {
+          "title": "FINE-Patrone wird nicht erkannt",
+          "summary": "Die Erkennung der FINE-Patrone ist fehlgeschlagen.",
+          "checks": [
+            "Prüfen Sie, ob tatsächlich Supportcode 1682 angezeigt wird.",
+            "Prüfen Sie die richtige Patronennummer in der offiziellen Wechselanleitung."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Canon-Support oder Canon-Service mit Code und Modell kontaktieren.",
+          "scope": "Gilt für die Fehleranleitung der Canon TS3500 series; der Index nennt TS3520 und TS3550i. Nicht auf andere Canon-Modelle übertragen."
+        }
+      }
+    },
+    {
+      "id": "canon-ts3500-1684",
+      "slug": "canon-ts3500-1684",
+      "code": "1684",
+      "aliases": [],
+      "category": "cartridge",
+      "brand": "Canon",
+      "models": [
+        "TS3500 series",
+        "TS3520",
+        "TS3550i"
+      ],
+      "sources": [
+        {
+          "label": "Canon TS3500 series — 1684",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/1684.html"
+        },
+        {
+          "label": "Canon TS3500 series — model and code index",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/err_contents0100.html"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "카트리지 장착·호환 확인",
+          "summary": "카트리지 장착 상태 또는 호환성 때문에 인식이 실패할 수 있습니다.",
+          "checks": [
+            "품번이 정확한 프린터 모델에 맞는지 확인합니다.",
+            "공식 장착 안내와 현재 카트리지 고정 상태를 대조합니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Canon 공식 지원 또는 서비스센터에 문의합니다.",
+          "scope": "Canon TS3500 series 공식 오류 안내 범위입니다. 코드 목록에 TS3520·TS3550i가 명시되며, 다른 Canon 모델에는 일반화하지 않습니다."
+        },
+        "en": {
+          "title": "Check cartridge seating and type",
+          "summary": "Recognition may fail because of cartridge fit or compatibility.",
+          "checks": [
+            "Check the part number for the exact printer model.",
+            "Compare the installed cartridge position with the official fitting guide."
+          ],
+          "escalation": "If it persists, contact official Canon support or a Canon service center with the code and model.",
+          "scope": "Limited to the Canon TS3500 series error guide, whose index names TS3520 and TS3550i. Do not apply this mapping to other Canon models."
+        },
+        "es": {
+          "title": "Revisar tipo y colocación del cartucho",
+          "summary": "El reconocimiento puede fallar por la colocación o compatibilidad.",
+          "checks": [
+            "Compruebe la referencia para el modelo exacto.",
+            "Compare la posición instalada con la guía oficial de colocación."
+          ],
+          "escalation": "Si persiste, consulte al soporte oficial o servicio Canon con el código y modelo.",
+          "scope": "Limitado a la guía Canon TS3500 series, cuyo índice nombra TS3520 y TS3550i. No generalizar a otros modelos Canon."
+        },
+        "zh": {
+          "title": "检查墨盒安装与型号",
+          "summary": "墨盒未正确安装或不兼容都可能导致识别失败。",
+          "checks": [
+            "核对墨盒编号是否适用于准确的打印机型号。",
+            "对照官方安装指南检查墨盒固定状态。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号，联系 Canon 官方支持或服务中心。",
+          "scope": "仅限 Canon TS3500 series 错误指南；其索引列有 TS3520 与 TS3550i。不可推广到其他 Canon 机型。"
+        },
+        "ja": {
+          "title": "カートリッジの装着と種類を確認",
+          "summary": "装着状態や適合性により認識できない可能性があります。",
+          "checks": [
+            "正確なプリンター型番に合うカートリッジ番号か確認します。",
+            "公式の装着手順と現在の固定状態を照合します。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Canon 公式サポートまたはサービス窓口へ相談します。",
+          "scope": "Canon TS3500 series の公式エラー案内の範囲です。一覧には TS3520・TS3550i が記載されています。他の Canon 機には一般化できません。"
+        },
+        "de": {
+          "title": "Sitz und Typ der Patrone prüfen",
+          "summary": "Sitz oder Kompatibilität können die Erkennung verhindern.",
+          "checks": [
+            "Prüfen Sie die Patronennummer für das genaue Druckermodell.",
+            "Vergleichen Sie die Einbaulage mit der offiziellen Anleitung."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Canon-Support oder Canon-Service mit Code und Modell kontaktieren.",
+          "scope": "Gilt für die Fehleranleitung der Canon TS3500 series; der Index nennt TS3520 und TS3550i. Nicht auf andere Canon-Modelle übertragen."
+        }
+      }
+    },
+    {
+      "id": "canon-ts3500-1700",
+      "slug": "canon-ts3500-1700",
+      "code": "1700",
+      "aliases": [],
+      "category": "service",
+      "brand": "Canon",
+      "models": [
+        "TS3500 series",
+        "TS3520",
+        "TS3550i"
+      ],
+      "sources": [
+        {
+          "label": "Canon TS3500 series — 1700",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/1700.html"
+        },
+        {
+          "label": "Canon TS3500 series — model and code index",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/err_contents0100.html"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "잉크 흡수체 서비스 예고",
+          "summary": "잉크 흡수체가 거의 찼다는 경고입니다.",
+          "checks": [
+            "현재 코드가 1700인지 기록합니다.",
+            "서비스 문의 전에 프린터 모델명과 발생 시점을 확인합니다."
+          ],
+          "escalation": "Canon 공식 서비스센터에 수리를 문의합니다. 서비스 모드·카운터 초기화·내부 흡수체 교체는 시도하지 않습니다.",
+          "scope": "Canon TS3500 series 공식 오류 안내 범위입니다. 코드 목록에 TS3520·TS3550i가 명시되며, 다른 Canon 모델에는 일반화하지 않습니다."
+        },
+        "en": {
+          "title": "Ink absorber service warning",
+          "summary": "The ink absorber is reported as nearly full.",
+          "checks": [
+            "Record whether the current code is 1700.",
+            "Check the model name and when the warning first appeared for the service request."
+          ],
+          "escalation": "Request repair from an official Canon service center. Do not attempt service mode, counter resets or internal absorber replacement.",
+          "scope": "Limited to the Canon TS3500 series error guide, whose index names TS3520 and TS3550i. Do not apply this mapping to other Canon models."
+        },
+        "es": {
+          "title": "Aviso de servicio del absorbedor",
+          "summary": "Se indica que el absorbedor de tinta está casi lleno.",
+          "checks": [
+            "Anote si el código actual es 1700.",
+            "Compruebe el modelo y cuándo apareció el aviso para la consulta técnica."
+          ],
+          "escalation": "Solicite reparación al servicio oficial Canon. No use modo de servicio, reinicios de contador ni cambie el absorbedor interno.",
+          "scope": "Limitado a la guía Canon TS3500 series, cuyo índice nombra TS3520 y TS3550i. No generalizar a otros modelos Canon."
+        },
+        "zh": {
+          "title": "墨水吸收器维护预警",
+          "summary": "设备提示墨水吸收器接近满载。",
+          "checks": [
+            "记录当前代码是否为 1700。",
+            "联系服务前确认机型和首次出现提示的时间。"
+          ],
+          "escalation": "请向 Canon 官方服务中心申请维修。不要使用维修模式、重置计数器或自行更换内部吸收器。",
+          "scope": "仅限 Canon TS3500 series 错误指南；其索引列有 TS3520 与 TS3550i。不可推广到其他 Canon 机型。"
+        },
+        "ja": {
+          "title": "インク吸収体のサービス予告",
+          "summary": "インク吸収体が満杯に近いという警告です。",
+          "checks": [
+            "現在の番号が 1700 であることを記録します。",
+            "サービス相談用に型番と警告が出始めた時期を確認します。"
+          ],
+          "escalation": "Canon 公式サービス窓口へ修理を相談します。サービスモード、カウンター初期化、内部吸収体の交換は行いません。",
+          "scope": "Canon TS3500 series の公式エラー案内の範囲です。一覧には TS3520・TS3550i が記載されています。他の Canon 機には一般化できません。"
+        },
+        "de": {
+          "title": "Servicewarnung zum Tintenabsorber",
+          "summary": "Der Tintenabsorber wird als fast voll gemeldet.",
+          "checks": [
+            "Notieren Sie, ob aktuell Code 1700 angezeigt wird.",
+            "Prüfen Sie Modellname und Zeitpunkt der ersten Warnung für die Serviceanfrage."
+          ],
+          "escalation": "Reparatur beim offiziellen Canon-Service anfragen. Keinen Servicemodus, Zählerreset oder internen Absorberwechsel versuchen.",
+          "scope": "Gilt für die Fehleranleitung der Canon TS3500 series; der Index nennt TS3520 und TS3550i. Nicht auf andere Canon-Modelle übertragen."
+        }
+      }
+    },
+    {
+      "id": "canon-ts3500-1890",
+      "slug": "canon-ts3500-1890",
+      "code": "1890",
+      "aliases": [],
+      "category": "setup",
+      "brand": "Canon",
+      "models": [
+        "TS3500 series",
+        "TS3520",
+        "TS3550i"
+      ],
+      "sources": [
+        {
+          "label": "Canon TS3500 series — 1890",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/1890.html"
+        },
+        {
+          "label": "Canon TS3500 series — model and code index",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/err_contents0100.html"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "운송용 보호재 확인",
+          "summary": "카트리지 홀더에 운송용 테이프나 보호재가 남았을 수 있습니다.",
+          "checks": [
+            "공식 초기 설치 그림에서 제거 대상 보호재를 확인합니다.",
+            "사용자용 덮개에서 보이는 보호재만 확인하고 홀더를 억지로 움직이지 않습니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Canon 공식 지원 또는 서비스센터에 문의합니다.",
+          "scope": "Canon TS3500 series 공식 오류 안내 범위입니다. 코드 목록에 TS3520·TS3550i가 명시되며, 다른 Canon 모델에는 일반화하지 않습니다."
+        },
+        "en": {
+          "title": "Check shipping protection",
+          "summary": "Shipping tape or packing material may remain at the cartridge holder.",
+          "checks": [
+            "Identify removable packing in the official setup illustrations.",
+            "Inspect only packing visible through the user cover; do not force the holder."
+          ],
+          "escalation": "If it persists, contact official Canon support or a Canon service center with the code and model.",
+          "scope": "Limited to the Canon TS3500 series error guide, whose index names TS3520 and TS3550i. Do not apply this mapping to other Canon models."
+        },
+        "es": {
+          "title": "Revisar protecciones de transporte",
+          "summary": "Puede quedar cinta o embalaje en el soporte de cartuchos.",
+          "checks": [
+            "Identifique el embalaje retirado en las ilustraciones oficiales de instalación.",
+            "Revise solo material visible bajo la cubierta de usuario; no fuerce el soporte."
+          ],
+          "escalation": "Si persiste, consulte al soporte oficial o servicio Canon con el código y modelo.",
+          "scope": "Limitado a la guía Canon TS3500 series, cuyo índice nombra TS3520 y TS3550i. No generalizar a otros modelos Canon."
+        },
+        "zh": {
+          "title": "检查运输保护材料",
+          "summary": "墨盒支架上可能仍有运输胶带或保护材料。",
+          "checks": [
+            "在官方初次安装图示中确认应移除的包装。",
+            "仅检查用户盖板下可见的保护材料，不要强行移动支架。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号，联系 Canon 官方支持或服务中心。",
+          "scope": "仅限 Canon TS3500 series 错误指南；其索引列有 TS3520 与 TS3550i。不可推广到其他 Canon 机型。"
+        },
+        "ja": {
+          "title": "輸送用保護材を確認",
+          "summary": "カートリッジホルダーに輸送用テープなどが残っている可能性があります。",
+          "checks": [
+            "公式の初期設定図で取り外す保護材を確認します。",
+            "ユーザー用カバーから見える保護材だけを確認し、ホルダーを無理に動かしません。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Canon 公式サポートまたはサービス窓口へ相談します。",
+          "scope": "Canon TS3500 series の公式エラー案内の範囲です。一覧には TS3520・TS3550i が記載されています。他の Canon 機には一般化できません。"
+        },
+        "de": {
+          "title": "Transportschutz prüfen",
+          "summary": "Am Patronenhalter kann noch Transportband oder Verpackung sitzen.",
+          "checks": [
+            "Identifizieren Sie den entfernbaren Schutz in den offiziellen Einrichtungsgrafiken.",
+            "Prüfen Sie nur sichtbare Verpackung unter der Benutzerabdeckung; bewegen Sie den Halter nicht gewaltsam."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Canon-Support oder Canon-Service mit Code und Modell kontaktieren.",
+          "scope": "Gilt für die Fehleranleitung der Canon TS3500 series; der Index nennt TS3520 und TS3550i. Nicht auf andere Canon-Modelle übertragen."
+        }
+      }
+    },
+    {
+      "id": "canon-ts3500-2114",
+      "slug": "canon-ts3500-2114",
+      "code": "2114",
+      "aliases": [],
+      "category": "paper-settings",
+      "brand": "Canon",
+      "models": [
+        "TS3500 series",
+        "TS3520",
+        "TS3550i"
+      ],
+      "sources": [
+        {
+          "label": "Canon TS3500 series — 2114",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/2114.html"
+        },
+        {
+          "label": "Canon TS3500 series — model and code index",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/err_contents0100.html"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "드라이버·본체 용지 크기 불일치",
+          "summary": "드라이버의 용지 크기와 본체에 등록된 크기가 다릅니다.",
+          "checks": [
+            "Stop으로 작업을 취소하고 실제 급지함 용지 크기를 확인합니다.",
+            "본체 Paper Select와 드라이버에서 같은 용지 크기를 선택합니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Canon 공식 지원 또는 서비스센터에 문의합니다.",
+          "scope": "Canon TS3500 series 공식 오류 안내 범위입니다. 코드 목록에 TS3520·TS3550i가 명시되며, 다른 Canon 모델에는 일반화하지 않습니다."
+        },
+        "en": {
+          "title": "Driver and printer paper sizes differ",
+          "summary": "The driver paper size differs from the size registered on the printer.",
+          "checks": [
+            "Cancel with Stop and check the actual paper in the rear tray.",
+            "Choose the same size using Paper Select and the printer driver."
+          ],
+          "escalation": "If it persists, contact official Canon support or a Canon service center with the code and model.",
+          "scope": "Limited to the Canon TS3500 series error guide, whose index names TS3520 and TS3550i. Do not apply this mapping to other Canon models."
+        },
+        "es": {
+          "title": "Tamaños de papel distintos",
+          "summary": "El tamaño del controlador difiere del registrado en la impresora.",
+          "checks": [
+            "Cancele con Stop y compruebe el papel de la bandeja trasera.",
+            "Elija el mismo tamaño con Paper Select y en el controlador."
+          ],
+          "escalation": "Si persiste, consulte al soporte oficial o servicio Canon con el código y modelo.",
+          "scope": "Limitado a la guía Canon TS3500 series, cuyo índice nombra TS3520 y TS3550i. No generalizar a otros modelos Canon."
+        },
+        "zh": {
+          "title": "驱动与本机纸张尺寸不一致",
+          "summary": "驱动中的纸张尺寸与打印机登记值不同。",
+          "checks": [
+            "按 Stop 取消任务，检查后托盘实际纸张尺寸。",
+            "用 Paper Select 与驱动设置选择相同的纸张尺寸。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号，联系 Canon 官方支持或服务中心。",
+          "scope": "仅限 Canon TS3500 series 错误指南；其索引列有 TS3520 与 TS3550i。不可推广到其他 Canon 机型。"
+        },
+        "ja": {
+          "title": "ドライバーと本体の用紙サイズ不一致",
+          "summary": "ドライバーの用紙サイズが本体の登録値と異なります。",
+          "checks": [
+            "Stop で取り消し、後トレイの実際の用紙サイズを確認します。",
+            "Paper Select とドライバーで同じサイズを選びます。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Canon 公式サポートまたはサービス窓口へ相談します。",
+          "scope": "Canon TS3500 series の公式エラー案内の範囲です。一覧には TS3520・TS3550i が記載されています。他の Canon 機には一般化できません。"
+        },
+        "de": {
+          "title": "Papierformate in Treiber und Gerät verschieden",
+          "summary": "Das Treiberformat unterscheidet sich vom im Gerät registrierten Format.",
+          "checks": [
+            "Brechen Sie mit Stop ab und prüfen Sie das Papier im hinteren Fach.",
+            "Wählen Sie mit Paper Select und im Treiber dasselbe Format."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Canon-Support oder Canon-Service mit Code und Modell kontaktieren.",
+          "scope": "Gilt für die Fehleranleitung der Canon TS3500 series; der Index nennt TS3520 und TS3550i. Nicht auf andere Canon-Modelle übertragen."
+        }
+      }
+    },
+    {
+      "id": "canon-ts3500-2900",
+      "slug": "canon-ts3500-2900",
+      "code": "2900",
+      "aliases": [],
+      "category": "alignment",
+      "brand": "Canon",
+      "models": [
+        "TS3500 series",
+        "TS3520",
+        "TS3550i"
+      ],
+      "sources": [
+        {
+          "label": "Canon TS3500 series — 2900",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/2900.html"
+        },
+        {
+          "label": "Canon TS3500 series — model and code index",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/err_contents0100.html"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "정렬 시트 스캔 실패",
+          "summary": "자동 헤드 정렬용 시트를 읽지 못했습니다.",
+          "checks": [
+            "정렬 시트가 평판 위 올바른 위치와 방향인지 확인합니다.",
+            "평판과 시트의 오염 여부, 후면 급지함의 A4 또는 Letter 일반 용지를 확인합니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Canon 공식 지원 또는 서비스센터에 문의합니다.",
+          "scope": "Canon TS3500 series 공식 오류 안내 범위입니다. 코드 목록에 TS3520·TS3550i가 명시되며, 다른 Canon 모델에는 일반화하지 않습니다."
+        },
+        "en": {
+          "title": "Alignment sheet scan failed",
+          "summary": "The automatic alignment sheet could not be read.",
+          "checks": [
+            "Check the sheet position and orientation on the platen.",
+            "Check the sheet and platen for dirt and the rear tray for A4 or Letter plain paper."
+          ],
+          "escalation": "If it persists, contact official Canon support or a Canon service center with the code and model.",
+          "scope": "Limited to the Canon TS3500 series error guide, whose index names TS3520 and TS3550i. Do not apply this mapping to other Canon models."
+        },
+        "es": {
+          "title": "No se pudo leer la hoja de alineación",
+          "summary": "Falló la lectura de la hoja para la alineación automática.",
+          "checks": [
+            "Compruebe posición y orientación de la hoja en el cristal.",
+            "Revise la limpieza de hoja y cristal y la presencia de papel normal A4 o Letter atrás."
+          ],
+          "escalation": "Si persiste, consulte al soporte oficial o servicio Canon con el código y modelo.",
+          "scope": "Limitado a la guía Canon TS3500 series, cuyo índice nombra TS3520 y TS3550i. No generalizar a otros modelos Canon."
+        },
+        "zh": {
+          "title": "对齐页扫描失败",
+          "summary": "自动打印头对齐页未能被读取。",
+          "checks": [
+            "核对对齐页在稿台上的位置与方向。",
+            "检查稿台与纸张是否脏污，并确认后托盘装有 A4 或 Letter 普通纸。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号，联系 Canon 官方支持或服务中心。",
+          "scope": "仅限 Canon TS3500 series 错误指南；其索引列有 TS3520 与 TS3550i。不可推广到其他 Canon 机型。"
+        },
+        "ja": {
+          "title": "位置調整シートの読み取り失敗",
+          "summary": "自動ヘッド位置調整シートを読み取れませんでした。",
+          "checks": [
+            "原稿台でシートの位置と向きを確認します。",
+            "シートと原稿台の汚れ、および後トレイの A4 または Letter 普通紙を確認します。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Canon 公式サポートまたはサービス窓口へ相談します。",
+          "scope": "Canon TS3500 series の公式エラー案内の範囲です。一覧には TS3520・TS3550i が記載されています。他の Canon 機には一般化できません。"
+        },
+        "de": {
+          "title": "Ausrichtungsblatt konnte nicht gescannt werden",
+          "summary": "Das Blatt für die automatische Druckkopfausrichtung wurde nicht gelesen.",
+          "checks": [
+            "Prüfen Sie Position und Ausrichtung auf dem Vorlagenglas.",
+            "Prüfen Sie Blatt und Glas auf Schmutz sowie A4- oder Letter-Normalpapier im hinteren Fach."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Canon-Support oder Canon-Service mit Code und Modell kontaktieren.",
+          "scope": "Gilt für die Fehleranleitung der Canon TS3500 series; der Index nennt TS3520 und TS3550i. Nicht auf andere Canon-Modelle übertragen."
+        }
+      }
+    },
+    {
+      "id": "canon-ts3500-5100",
+      "slug": "canon-ts3500-5100",
+      "code": "5100",
+      "aliases": [],
+      "category": "carriage",
+      "brand": "Canon",
+      "models": [
+        "TS3500 series",
+        "TS3520",
+        "TS3550i"
+      ],
+      "sources": [
+        {
+          "label": "Canon TS3500 series — 5100",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/5100.html"
+        },
+        {
+          "label": "Canon TS3500 series — model and code index",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/err_contents0100.html"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "카트리지 홀더 경로 확인",
+          "summary": "프린터 오류로 홀더 경로와 카트리지 장착 확인이 필요합니다.",
+          "checks": [
+            "인쇄를 Stop으로 중단하고 전원을 끈 뒤 보이는 종이·보호재를 확인합니다.",
+            "공식 안내로 카트리지 고정 상태를 확인하고 투명 필름에는 손대지 않습니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Canon 공식 지원 또는 서비스센터에 문의합니다.",
+          "scope": "Canon TS3500 series 공식 오류 안내 범위입니다. 코드 목록에 TS3520·TS3550i가 명시되며, 다른 Canon 모델에는 일반화하지 않습니다."
+        },
+        "en": {
+          "title": "Check the cartridge holder path",
+          "summary": "This printer error calls for checking the holder path and cartridge seating.",
+          "checks": [
+            "Cancel with Stop, switch off, and look for visible paper or packing.",
+            "Check cartridge locking against the official guide; avoid the clear film."
+          ],
+          "escalation": "If it persists, contact official Canon support or a Canon service center with the code and model.",
+          "scope": "Limited to the Canon TS3500 series error guide, whose index names TS3520 and TS3550i. Do not apply this mapping to other Canon models."
+        },
+        "es": {
+          "title": "Revisar el recorrido del soporte",
+          "summary": "Este error requiere comprobar el recorrido y la colocación de los cartuchos.",
+          "checks": [
+            "Cancele con Stop, apague y busque papel o embalaje visible.",
+            "Revise el cierre de cartuchos con la guía oficial; no toque la película transparente."
+          ],
+          "escalation": "Si persiste, consulte al soporte oficial o servicio Canon con el código y modelo.",
+          "scope": "Limitado a la guía Canon TS3500 series, cuyo índice nombra TS3520 y TS3550i. No generalizar a otros modelos Canon."
+        },
+        "zh": {
+          "title": "检查墨盒支架通道",
+          "summary": "此打印机错误需要检查支架通道和墨盒固定状态。",
+          "checks": [
+            "按 Stop 停止打印并关机，查看可见纸张或包装材料。",
+            "对照官方说明检查墨盒锁定状态，不要触碰透明薄膜。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号，联系 Canon 官方支持或服务中心。",
+          "scope": "仅限 Canon TS3500 series 错误指南；其索引列有 TS3520 与 TS3550i。不可推广到其他 Canon 机型。"
+        },
+        "ja": {
+          "title": "カートリッジホルダーの経路を確認",
+          "summary": "このエラーではホルダー経路と装着状態の確認が必要です。",
+          "checks": [
+            "Stop で中断して電源を切り、見える紙や保護材を確認します。",
+            "公式案内で固定状態を確認し、透明フィルムには触れません。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Canon 公式サポートまたはサービス窓口へ相談します。",
+          "scope": "Canon TS3500 series の公式エラー案内の範囲です。一覧には TS3520・TS3550i が記載されています。他の Canon 機には一般化できません。"
+        },
+        "de": {
+          "title": "Bewegungsweg des Patronenhalters prüfen",
+          "summary": "Bei diesem Fehler sind Halterweg und Patronensitz zu prüfen.",
+          "checks": [
+            "Brechen Sie mit Stop ab, schalten Sie aus und suchen Sie sichtbares Papier oder Verpackung.",
+            "Prüfen Sie die Patronenverriegelung nach offizieller Anleitung; berühren Sie die klare Folie nicht."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Canon-Support oder Canon-Service mit Code und Modell kontaktieren.",
+          "scope": "Gilt für die Fehleranleitung der Canon TS3500 series; der Index nennt TS3520 und TS3550i. Nicht auf andere Canon-Modelle übertragen."
+        }
+      }
+    },
+    {
+      "id": "canon-ts3500-5200",
+      "slug": "canon-ts3500-5200",
+      "code": "5200",
+      "aliases": [],
+      "category": "printer",
+      "brand": "Canon",
+      "models": [
+        "TS3500 series",
+        "TS3520",
+        "TS3550i"
+      ],
+      "sources": [
+        {
+          "label": "Canon TS3500 series — 5200",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/5200.html"
+        },
+        {
+          "label": "Canon TS3500 series — model and code index",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/err_contents0100.html"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "프린터 오류 후 재확인",
+          "summary": "이 코드만으로 특정 부품 고장을 단정할 수 없습니다.",
+          "checks": [
+            "프린터를 끄고 전원 플러그를 분리합니다.",
+            "잠시 후 다시 연결하여 켜고 동일한 코드가 재발하는지 확인합니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Canon 공식 지원 또는 서비스센터에 문의합니다.",
+          "scope": "Canon TS3500 series 공식 오류 안내 범위입니다. 코드 목록에 TS3520·TS3550i가 명시되며, 다른 Canon 모델에는 일반화하지 않습니다."
+        },
+        "en": {
+          "title": "Recheck after a printer error",
+          "summary": "This code alone does not identify a failed component.",
+          "checks": [
+            "Switch the printer off and unplug it.",
+            "After a short wait, reconnect and check whether the same code returns."
+          ],
+          "escalation": "If it persists, contact official Canon support or a Canon service center with the code and model.",
+          "scope": "Limited to the Canon TS3500 series error guide, whose index names TS3520 and TS3550i. Do not apply this mapping to other Canon models."
+        },
+        "es": {
+          "title": "Revisar tras un error de impresora",
+          "summary": "El código por sí solo no identifica una pieza averiada.",
+          "checks": [
+            "Apague la impresora y desenchúfela.",
+            "Tras una breve espera, vuelva a conectar y compruebe si reaparece el mismo código."
+          ],
+          "escalation": "Si persiste, consulte al soporte oficial o servicio Canon con el código y modelo.",
+          "scope": "Limitado a la guía Canon TS3500 series, cuyo índice nombra TS3520 y TS3550i. No generalizar a otros modelos Canon."
+        },
+        "zh": {
+          "title": "打印机错误后复查",
+          "summary": "仅凭此代码无法断定某个部件损坏。",
+          "checks": [
+            "关闭打印机并拔下电源插头。",
+            "稍候重新连接并开机，确认相同代码是否再次出现。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号，联系 Canon 官方支持或服务中心。",
+          "scope": "仅限 Canon TS3500 series 错误指南；其索引列有 TS3520 与 TS3550i。不可推广到其他 Canon 机型。"
+        },
+        "ja": {
+          "title": "プリンターエラー後の再確認",
+          "summary": "この番号だけでは故障部品を特定できません。",
+          "checks": [
+            "プリンターを切り、電源プラグを抜きます。",
+            "少し待って接続し直して電源を入れ、同じ番号が再表示されるか確認します。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Canon 公式サポートまたはサービス窓口へ相談します。",
+          "scope": "Canon TS3500 series の公式エラー案内の範囲です。一覧には TS3520・TS3550i が記載されています。他の Canon 機には一般化できません。"
+        },
+        "de": {
+          "title": "Nach Druckerfehler erneut prüfen",
+          "summary": "Der Code allein identifiziert kein defektes Bauteil.",
+          "checks": [
+            "Schalten Sie den Drucker aus und ziehen Sie den Netzstecker.",
+            "Schließen Sie ihn nach kurzer Wartezeit wieder an und prüfen Sie, ob derselbe Code erscheint."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Canon-Support oder Canon-Service mit Code und Modell kontaktieren.",
+          "scope": "Gilt für die Fehleranleitung der Canon TS3500 series; der Index nennt TS3520 und TS3550i. Nicht auf andere Canon-Modelle übertragen."
+        }
+      }
+    },
+    {
+      "id": "canon-ts3500-5b00",
+      "slug": "canon-ts3500-5b00",
+      "code": "5B00",
+      "aliases": [],
+      "category": "service",
+      "brand": "Canon",
+      "models": [
+        "TS3500 series",
+        "TS3520",
+        "TS3550i"
+      ],
+      "sources": [
+        {
+          "label": "Canon TS3500 series — 5B00",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/5B00.html"
+        },
+        {
+          "label": "Canon TS3500 series — model and code index",
+          "url": "https://ij.manual.canon/ij/webmanual/ErrorCode/TS3500%20series/EN/ERR/err_contents0100.html"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "공식 서비스가 필요한 오류",
+          "summary": "이 모델의 공식 안내는 수리 상담을 지시합니다.",
+          "checks": [
+            "프린터 모델명과 전체 코드 5B00을 기록합니다.",
+            "서비스 접수용으로 발생 시점과 최근 표시된 다른 코드를 정리합니다."
+          ],
+          "escalation": "Canon 공식 서비스센터에 수리를 문의합니다. 서비스 모드·카운터 초기화·내부 흡수체 교체는 시도하지 않습니다.",
+          "scope": "Canon TS3500 series 공식 오류 안내 범위입니다. 코드 목록에 TS3520·TS3550i가 명시되며, 다른 Canon 모델에는 일반화하지 않습니다."
+        },
+        "en": {
+          "title": "Error requiring official service",
+          "summary": "The model's official instructions direct this error to repair support.",
+          "checks": [
+            "Record the printer model and complete code 5B00.",
+            "Note when it began and any other recent codes for the service request."
+          ],
+          "escalation": "Request repair from an official Canon service center. Do not attempt service mode, counter resets or internal absorber replacement.",
+          "scope": "Limited to the Canon TS3500 series error guide, whose index names TS3520 and TS3550i. Do not apply this mapping to other Canon models."
+        },
+        "es": {
+          "title": "Error que requiere servicio oficial",
+          "summary": "La guía del modelo remite este error al servicio de reparación.",
+          "checks": [
+            "Anote el modelo y el código completo 5B00.",
+            "Registre cuándo comenzó y otros códigos recientes para la solicitud técnica."
+          ],
+          "escalation": "Solicite reparación al servicio oficial Canon. No use modo de servicio, reinicios de contador ni cambie el absorbedor interno.",
+          "scope": "Limitado a la guía Canon TS3500 series, cuyo índice nombra TS3520 y TS3550i. No generalizar a otros modelos Canon."
+        },
+        "zh": {
+          "title": "需要官方服务的错误",
+          "summary": "该机型的官方说明要求联系维修服务。",
+          "checks": [
+            "记录打印机型号和完整代码 5B00。",
+            "整理首次发生时间和近期其他提示，供服务人员参考。"
+          ],
+          "escalation": "请向 Canon 官方服务中心申请维修。不要使用维修模式、重置计数器或自行更换内部吸收器。",
+          "scope": "仅限 Canon TS3500 series 错误指南；其索引列有 TS3520 与 TS3550i。不可推广到其他 Canon 机型。"
+        },
+        "ja": {
+          "title": "公式サービスへの相談が必要",
+          "summary": "この型番の公式案内では修理相談が指定されています。",
+          "checks": [
+            "プリンター型番と番号 5B00 を記録します。",
+            "発生時期と最近の他の番号をサービス相談用に整理します。"
+          ],
+          "escalation": "Canon 公式サービス窓口へ修理を相談します。サービスモード、カウンター初期化、内部吸収体の交換は行いません。",
+          "scope": "Canon TS3500 series の公式エラー案内の範囲です。一覧には TS3520・TS3550i が記載されています。他の Canon 機には一般化できません。"
+        },
+        "de": {
+          "title": "Fehler mit offiziellem Servicebedarf",
+          "summary": "Die offizielle Anleitung dieses Modells verweist auf Reparaturservice.",
+          "checks": [
+            "Notieren Sie Druckermodell und vollständigen Code 5B00.",
+            "Notieren Sie Beginn und weitere zuletzt angezeigte Codes für die Serviceanfrage."
+          ],
+          "escalation": "Reparatur beim offiziellen Canon-Service anfragen. Keinen Servicemodus, Zählerreset oder internen Absorberwechsel versuchen.",
+          "scope": "Gilt für die Fehleranleitung der Canon TS3500 series; der Index nennt TS3520 und TS3550i. Nicht auf andere Canon-Modelle übertragen."
+        }
+      }
+    },
+    {
+      "id": "epson-et2850-e-01",
+      "slug": "epson-et2850-e-01",
+      "code": "E-01",
+      "aliases": [
+        "(E-01)"
+      ],
+      "category": "printer",
+      "brand": "Epson",
+      "models": [
+        "ET-2850"
+      ],
+      "sources": [
+        {
+          "label": "Epson ET-2850 — LCD status codes",
+          "url": "https://epson.com/faq/SPT_C11CJ63202~faq-00007f1-et2850"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "프린터 동작 오류",
+          "summary": "ET-2850에서 프린터 오류가 보고되었습니다.",
+          "checks": [
+            "전원을 한 번 껐다 켠 뒤 코드가 남는지 확인합니다.",
+            "사용자용 용지 경로에서 걸린 종이가 보이는지 확인합니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Epson 공식 지원에 문의합니다.",
+          "scope": "Epson ET-2850의 LCD 상태 코드에 한정합니다. 다른 Epson 모델이나 네트워크 보고서의 코드는 별도 확인이 필요합니다."
+        },
+        "en": {
+          "title": "Printer operation error",
+          "summary": "An ET-2850 printer error is reported.",
+          "checks": [
+            "Switch off and on once, then check whether the code remains.",
+            "Inspect the user-accessible paper path for visible jammed paper."
+          ],
+          "escalation": "If it persists, contact official Epson support with the code and model.",
+          "scope": "Limited to LCD status codes on Epson ET-2850. Other Epson models and network-report codes need separate verification."
+        },
+        "es": {
+          "title": "Error de funcionamiento de impresora",
+          "summary": "Se informa de un error de impresora en la ET-2850.",
+          "checks": [
+            "Apague y encienda una vez y compruebe si persiste el código.",
+            "Revise si hay papel atascado visible en el recorrido accesible al usuario."
+          ],
+          "escalation": "Si persiste, contacte al soporte oficial Epson con el código y modelo.",
+          "scope": "Limitado a códigos de estado LCD de Epson ET-2850. Otros modelos y códigos de informes de red requieren comprobación aparte."
+        },
+        "zh": {
+          "title": "打印机运行错误",
+          "summary": "ET-2850 报告打印机错误。",
+          "checks": [
+            "关机再开机一次，查看代码是否仍存在。",
+            "查看用户可接触的纸路中是否有可见卡纸。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号联系 Epson 官方支持。",
+          "scope": "仅限 Epson ET-2850 的 LCD 状态代码。其他 Epson 机型及网络报告代码需另行核实。"
+        },
+        "ja": {
+          "title": "プリンター動作エラー",
+          "summary": "ET-2850 でプリンターエラーが表示されています。",
+          "checks": [
+            "一度電源を入れ直し、番号が残るか確認します。",
+            "ユーザーが確認できる用紙経路に紙詰まりが見えるか確認します。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Epson 公式サポートへ相談します。",
+          "scope": "Epson ET-2850 の LCD 状態番号に限定します。他の Epson 機やネットワーク診断レポートの番号は別途確認が必要です。"
+        },
+        "de": {
+          "title": "Druckerbetriebsfehler",
+          "summary": "Die ET-2850 meldet einen Druckerfehler.",
+          "checks": [
+            "Schalten Sie einmal aus und ein und prüfen Sie, ob der Code bleibt.",
+            "Prüfen Sie den zugänglichen Papierweg auf sichtbaren Papierstau."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Epson-Support mit Code und Modell kontaktieren.",
+          "scope": "Gilt nur für LCD-Statuscodes des Epson ET-2850. Andere Epson-Modelle und Netzwerkberichtscodes müssen gesondert geprüft werden."
+        }
+      }
+    },
+    {
+      "id": "epson-et2850-e-02",
+      "slug": "epson-et2850-e-02",
+      "code": "E-02",
+      "aliases": [
+        "(E-02)"
+      ],
+      "category": "scanner",
+      "brand": "Epson",
+      "models": [
+        "ET-2850"
+      ],
+      "sources": [
+        {
+          "label": "Epson ET-2850 — LCD status codes",
+          "url": "https://epson.com/faq/SPT_C11CJ63202~faq-00007f1-et2850"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "스캐너 동작 오류",
+          "summary": "ET-2850의 스캐너 오류 표시입니다.",
+          "checks": [
+            "전원을 한 번 껐다 켜고 같은 표시가 남는지 확인합니다.",
+            "스캔 작업에서 발생했는지와 표시 시점을 기록합니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Epson 공식 지원에 문의합니다.",
+          "scope": "Epson ET-2850의 LCD 상태 코드에 한정합니다. 다른 Epson 모델이나 네트워크 보고서의 코드는 별도 확인이 필요합니다."
+        },
+        "en": {
+          "title": "Scanner operation error",
+          "summary": "The ET-2850 reports a scanner error.",
+          "checks": [
+            "Switch off and on once and check whether the message remains.",
+            "Record whether it appeared during scanning and when it began."
+          ],
+          "escalation": "If it persists, contact official Epson support with the code and model.",
+          "scope": "Limited to LCD status codes on Epson ET-2850. Other Epson models and network-report codes need separate verification."
+        },
+        "es": {
+          "title": "Error del escáner",
+          "summary": "La ET-2850 indica un error del escáner.",
+          "checks": [
+            "Apague y encienda una vez y revise si sigue el mensaje.",
+            "Anote si apareció al escanear y cuándo comenzó."
+          ],
+          "escalation": "Si persiste, contacte al soporte oficial Epson con el código y modelo.",
+          "scope": "Limitado a códigos de estado LCD de Epson ET-2850. Otros modelos y códigos de informes de red requieren comprobación aparte."
+        },
+        "zh": {
+          "title": "扫描仪运行错误",
+          "summary": "ET-2850 提示扫描仪错误。",
+          "checks": [
+            "关机再开机一次，确认提示是否仍在。",
+            "记录是否在扫描时出现及开始时间。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号联系 Epson 官方支持。",
+          "scope": "仅限 Epson ET-2850 的 LCD 状态代码。其他 Epson 机型及网络报告代码需另行核实。"
+        },
+        "ja": {
+          "title": "スキャナー動作エラー",
+          "summary": "ET-2850 のスキャナーエラー表示です。",
+          "checks": [
+            "一度電源を入れ直し、表示が残るか確認します。",
+            "スキャン中に出たか、いつから出たかを記録します。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Epson 公式サポートへ相談します。",
+          "scope": "Epson ET-2850 の LCD 状態番号に限定します。他の Epson 機やネットワーク診断レポートの番号は別途確認が必要です。"
+        },
+        "de": {
+          "title": "Scannerbetriebsfehler",
+          "summary": "Die ET-2850 meldet einen Scannerfehler.",
+          "checks": [
+            "Schalten Sie einmal aus und ein und prüfen Sie die Anzeige erneut.",
+            "Notieren Sie, ob der Fehler beim Scannen auftrat und seit wann er besteht."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Epson-Support mit Code und Modell kontaktieren.",
+          "scope": "Gilt nur für LCD-Statuscodes des Epson ET-2850. Andere Epson-Modelle und Netzwerkberichtscodes müssen gesondert geprüft werden."
+        }
+      }
+    },
+    {
+      "id": "epson-et2850-e-11",
+      "slug": "epson-et2850-e-11",
+      "code": "E-11",
+      "aliases": [
+        "(E-11)"
+      ],
+      "category": "service",
+      "brand": "Epson",
+      "models": [
+        "ET-2850"
+      ],
+      "sources": [
+        {
+          "label": "Epson ET-2850 — LCD status codes",
+          "url": "https://epson.com/faq/SPT_C11CJ63202~faq-00007f1-et2850"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "잉크 패드 서비스 필요",
+          "summary": "잉크 패드 교체가 필요하다는 표시입니다.",
+          "checks": [
+            "E-11과 W-11 중 어느 코드인지 확인합니다.",
+            "서비스 문의용 모델명과 표시 내용을 기록합니다."
+          ],
+          "escalation": "Epson 공식 지원 또는 공인 서비스업체에 잉크 패드 서비스를 문의합니다. 패드는 사용자 정비 부품이 아니며 카운터 초기화로 우회하지 않습니다.",
+          "scope": "Epson ET-2850의 LCD 상태 코드에 한정합니다. 다른 Epson 모델이나 네트워크 보고서의 코드는 별도 확인이 필요합니다."
+        },
+        "en": {
+          "title": "Ink pad service required",
+          "summary": "The display indicates that an ink pad needs replacement.",
+          "checks": [
+            "Check whether the code is E-11 or W-11.",
+            "Record the model and displayed message for the service request."
+          ],
+          "escalation": "Arrange ink pad service through Epson or an authorized provider. The pad is not user-serviceable; do not bypass the warning with a counter reset.",
+          "scope": "Limited to LCD status codes on Epson ET-2850. Other Epson models and network-report codes need separate verification."
+        },
+        "es": {
+          "title": "Servicio de almohadilla necesario",
+          "summary": "La pantalla indica que se necesita cambiar una almohadilla de tinta.",
+          "checks": [
+            "Distinga entre los códigos E-11 y W-11.",
+            "Anote modelo y mensaje para la consulta técnica."
+          ],
+          "escalation": "Solicite servicio de almohadilla a Epson o un proveedor autorizado. No es una pieza reparable por el usuario; no eluda el aviso reiniciando contadores.",
+          "scope": "Limitado a códigos de estado LCD de Epson ET-2850. Otros modelos y códigos de informes de red requieren comprobación aparte."
+        },
+        "zh": {
+          "title": "需要墨垫维护",
+          "summary": "屏幕表示墨垫需要更换。",
+          "checks": [
+            "确认是 E-11 还是 W-11。",
+            "记录机型和提示内容以便联系服务。"
+          ],
+          "escalation": "通过 Epson 或授权服务商安排墨垫维护。墨垫不属于用户维修部件，不要重置计数器来绕过提示。",
+          "scope": "仅限 Epson ET-2850 的 LCD 状态代码。其他 Epson 机型及网络报告代码需另行核实。"
+        },
+        "ja": {
+          "title": "インクパッドのサービスが必要",
+          "summary": "インクパッドの交換が必要という表示です。",
+          "checks": [
+            "E-11 と W-11 のどちらか確認します。",
+            "サービス相談用に型番と表示内容を記録します。"
+          ],
+          "escalation": "Epson または認定サービス業者へインクパッドの対応を依頼します。ユーザー整備部品ではなく、カウンター初期化で回避しません。",
+          "scope": "Epson ET-2850 の LCD 状態番号に限定します。他の Epson 機やネットワーク診断レポートの番号は別途確認が必要です。"
+        },
+        "de": {
+          "title": "Service für Tintenkissen erforderlich",
+          "summary": "Die Anzeige meldet erforderlichen Austausch eines Tintenkissens.",
+          "checks": [
+            "Unterscheiden Sie zwischen E-11 und W-11.",
+            "Notieren Sie Modell und Meldung für die Serviceanfrage."
+          ],
+          "escalation": "Tintenkissenservice bei Epson oder einem autorisierten Anbieter vereinbaren. Kein vom Nutzer wartbares Teil; Warnung nicht durch Zählerreset umgehen.",
+          "scope": "Gilt nur für LCD-Statuscodes des Epson ET-2850. Andere Epson-Modelle und Netzwerkberichtscodes müssen gesondert geprüft werden."
+        }
+      }
+    },
+    {
+      "id": "epson-et2850-w-01",
+      "slug": "epson-et2850-w-01",
+      "code": "W-01",
+      "aliases": [
+        "(W-01)"
+      ],
+      "category": "paper-jam",
+      "brand": "Epson",
+      "models": [
+        "ET-2850"
+      ],
+      "sources": [
+        {
+          "label": "Epson ET-2850 — LCD status codes",
+          "url": "https://download4.epson.biz/sec_pubs/et-2850_series/useg/en/GUID-4B5D6040-0250-4768-9481-8BFAFB1AE101.htm"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "용지 걸림 표시",
+          "summary": "ET-2850에서 용지 걸림이 감지되었습니다.",
+          "checks": [
+            "공식 제거 안내에 따라 보이는 걸린 용지를 확인합니다.",
+            "제거 후 LCD가 안내하는 버튼을 누르고 코드가 사라지는지 확인합니다."
+          ],
+          "escalation": "표시가 지속되면 코드와 모델명으로 Epson 공식 지원에 문의합니다.",
+          "scope": "Epson ET-2850의 LCD 상태 코드에 한정합니다. 다른 Epson 모델이나 네트워크 보고서의 코드는 별도 확인이 필요합니다."
+        },
+        "en": {
+          "title": "Paper jam message",
+          "summary": "The ET-2850 has detected a paper jam.",
+          "checks": [
+            "Check visible jammed paper using the official removal guide.",
+            "After clearing it, use the button shown on the LCD and check the code."
+          ],
+          "escalation": "If it persists, contact official Epson support with the code and model.",
+          "scope": "Limited to LCD status codes on Epson ET-2850. Other Epson models and network-report codes need separate verification."
+        },
+        "es": {
+          "title": "Mensaje de atasco de papel",
+          "summary": "La ET-2850 detectó un atasco de papel.",
+          "checks": [
+            "Revise el papel visible con la guía oficial de retirada.",
+            "Tras retirarlo, pulse el botón indicado en la pantalla y revise el código."
+          ],
+          "escalation": "Si persiste, contacte al soporte oficial Epson con el código y modelo.",
+          "scope": "Limitado a códigos de estado LCD de Epson ET-2850. Otros modelos y códigos de informes de red requieren comprobación aparte."
+        },
+        "zh": {
+          "title": "卡纸提示",
+          "summary": "ET-2850 检测到卡纸。",
+          "checks": [
+            "依照官方清除指南检查可见的卡纸。",
+            "清除后按 LCD 指示的按钮，查看代码是否消失。"
+          ],
+          "escalation": "若持续出现，请提供代码与型号联系 Epson 官方支持。",
+          "scope": "仅限 Epson ET-2850 的 LCD 状态代码。其他 Epson 机型及网络报告代码需另行核实。"
+        },
+        "ja": {
+          "title": "紙詰まり表示",
+          "summary": "ET-2850 で紙詰まりが検知されました。",
+          "checks": [
+            "公式の除去案内で見える詰まり紙を確認します。",
+            "除去後に LCD の指定ボタンを押し、番号が消えるか確認します。"
+          ],
+          "escalation": "続く場合は番号と型番を添えて Epson 公式サポートへ相談します。",
+          "scope": "Epson ET-2850 の LCD 状態番号に限定します。他の Epson 機やネットワーク診断レポートの番号は別途確認が必要です。"
+        },
+        "de": {
+          "title": "Papierstaumeldung",
+          "summary": "Die ET-2850 hat einen Papierstau erkannt.",
+          "checks": [
+            "Prüfen Sie sichtbares gestautes Papier anhand der offiziellen Anleitung.",
+            "Drücken Sie nach dem Entfernen die auf dem LCD angegebene Taste und prüfen Sie den Code."
+          ],
+          "escalation": "Bei Fortbestehen offiziellen Epson-Support mit Code und Modell kontaktieren.",
+          "scope": "Gilt nur für LCD-Statuscodes des Epson ET-2850. Andere Epson-Modelle und Netzwerkberichtscodes müssen gesondert geprüft werden."
+        }
+      }
+    },
+    {
+      "id": "epson-et2850-w-11",
+      "slug": "epson-et2850-w-11",
+      "code": "W-11",
+      "aliases": [
+        "(W-11)"
+      ],
+      "category": "service",
+      "brand": "Epson",
+      "models": [
+        "ET-2850"
+      ],
+      "sources": [
+        {
+          "label": "Epson ET-2850 — LCD status codes",
+          "url": "https://download4.epson.biz/sec_pubs/et-2850_series/useg/en/GUID-4B5D6040-0250-4768-9481-8BFAFB1AE101.htm"
+        }
+      ],
+      "text": {
+        "ko": {
+          "title": "잉크 패드 서비스 예고",
+          "summary": "잉크 패드가 수명 한계에 가까워졌다는 경고입니다.",
+          "checks": [
+            "W-11 경고인지 E-11 오류인지 구분합니다.",
+            "서비스 계획을 위해 모델명과 경고 발생 시점을 기록합니다."
+          ],
+          "escalation": "Epson 공식 지원 또는 공인 서비스업체에 잉크 패드 서비스를 문의합니다. 패드는 사용자 정비 부품이 아니며 카운터 초기화로 우회하지 않습니다.",
+          "scope": "Epson ET-2850의 LCD 상태 코드에 한정합니다. 다른 Epson 모델이나 네트워크 보고서의 코드는 별도 확인이 필요합니다."
+        },
+        "en": {
+          "title": "Ink pad service warning",
+          "summary": "An ink pad is reported as nearing its service limit.",
+          "checks": [
+            "Distinguish the W-11 warning from the E-11 error.",
+            "Record the model and warning onset to plan service."
+          ],
+          "escalation": "Arrange ink pad service through Epson or an authorized provider. The pad is not user-serviceable; do not bypass the warning with a counter reset.",
+          "scope": "Limited to LCD status codes on Epson ET-2850. Other Epson models and network-report codes need separate verification."
+        },
+        "es": {
+          "title": "Aviso de servicio de almohadilla",
+          "summary": "Una almohadilla de tinta se aproxima a su límite de servicio.",
+          "checks": [
+            "Distinga el aviso W-11 del error E-11.",
+            "Anote modelo y comienzo del aviso para planificar el servicio."
+          ],
+          "escalation": "Solicite servicio de almohadilla a Epson o un proveedor autorizado. No es una pieza reparable por el usuario; no eluda el aviso reiniciando contadores.",
+          "scope": "Limitado a códigos de estado LCD de Epson ET-2850. Otros modelos y códigos de informes de red requieren comprobación aparte."
+        },
+        "zh": {
+          "title": "墨垫维护预警",
+          "summary": "设备提示墨垫接近使用极限。",
+          "checks": [
+            "区分 W-11 预警与 E-11 错误。",
+            "记录机型和预警出现时间以安排维护。"
+          ],
+          "escalation": "通过 Epson 或授权服务商安排墨垫维护。墨垫不属于用户维修部件，不要重置计数器来绕过提示。",
+          "scope": "仅限 Epson ET-2850 的 LCD 状态代码。其他 Epson 机型及网络报告代码需另行核实。"
+        },
+        "ja": {
+          "title": "インクパッドのサービス予告",
+          "summary": "インクパッドが使用限度に近づいているという警告です。",
+          "checks": [
+            "W-11 の警告と E-11 のエラーを区別します。",
+            "サービス予定のため型番と警告が出た時期を記録します。"
+          ],
+          "escalation": "Epson または認定サービス業者へインクパッドの対応を依頼します。ユーザー整備部品ではなく、カウンター初期化で回避しません。",
+          "scope": "Epson ET-2850 の LCD 状態番号に限定します。他の Epson 機やネットワーク診断レポートの番号は別途確認が必要です。"
+        },
+        "de": {
+          "title": "Servicewarnung zum Tintenkissen",
+          "summary": "Ein Tintenkissen nähert sich seiner Nutzungsgrenze.",
+          "checks": [
+            "Unterscheiden Sie die Warnung W-11 vom Fehler E-11.",
+            "Notieren Sie Modell und Beginn der Warnung zur Serviceplanung."
+          ],
+          "escalation": "Tintenkissenservice bei Epson oder einem autorisierten Anbieter vereinbaren. Kein vom Nutzer wartbares Teil; Warnung nicht durch Zählerreset umgehen.",
+          "scope": "Gilt nur für LCD-Statuscodes des Epson ET-2850. Andere Epson-Modelle und Netzwerkberichtscodes müssen gesondert geprüft werden."
+        }
+      }
+    }
+  ]
+}
